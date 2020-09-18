@@ -104,7 +104,7 @@ def MainControlFunc():
     input.add_argument('-c', '--currency',  
                         help='Bitcoin value in 1.INR (Indian Rupees 2.USD (US Dollars)', required = True)
 
-    input.add_argument('-ct', '--cointype',  default=['Bitcoin'], # (In Cryptocurrency Choosing Bitcoin)
+    input.add_argument('-ct', '--cointype',  default=['Bitcoin'],
                         help='Type of crypto currency is bitcoin')
 
     args = input.parse_args()
