@@ -55,7 +55,7 @@ Run the follwing Command
 
         -c CURRENCY, --currency CURRENCY
                         Bitcoin value in 
-                        1.Indian Rupees(INR) 
+                        1.INR(Indian Rupees) 
                         2.USD(US Dollars)
 
         -ct COINTYPE, --cointype COINTYPE

@@ -92,7 +92,7 @@ def MainControlFunc():
     input = argparse.ArgumentParser(
         description='Bitcoin Price Notification App.', epilog='This Script helps in sharing Real-Time Bitcoin Prices to Appropriate Services')
 
-    input.add_argument('-e', '--alert_amount',default=[836745.00, 10000], # (10000 USD = 736745.00 Indian Rupee) 
+    input.add_argument('-e', '--alert_amount',default=[736745.00, 10000], # (10000 USD = 736745.00 Indian Rupee) 
                         help='The price of 1 bitcoin when an emergency alert will be sent. Default is 10000 USD')
 
     input.add_argument('-t', '--time_interval', default=[60], 
