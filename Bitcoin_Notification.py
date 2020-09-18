@@ -99,7 +99,7 @@ def MainControlFunc():
                         help='The Frequency at which the Bitcoin value is going to be Fetched from Server')
     
     input.add_argument('-d', '--destination_app',
-                        help='The Messaging Service Destiation 1. TWITTER 2. ANDROID SMS 3. TELEGRAM', required=True)
+                        help='The Messaging Service Destiation 1. TWITTER 2. TELEGRAM', required=True)
 
     input.add_argument('-c', '--currency',  
                         help='Bitcoin value in 1.INR (Indian Rupees 2.USD (US Dollars)', required = True)
