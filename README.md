@@ -1,19 +1,19 @@
 # BITCOIN PRICE NOTIFICATION                  
 ## BITCOIN PROJECT:
-![alt text](https://images.app.goo.gl/UHsPdRLrhUxpryHT8)
-______
+_______
+![alt text](https://miro.medium.com/max/700/1*Jy_4rwG3dtf7rLUm7h0MRA.png)
+
 ## About:-
 ____
-    As we all know, Crypto Currency price is a fickle thing.You never really know where it’s going 
+> As we all know, Crypto Currency price is a fickle thing.You never really know where it’s going 
     to be at the end of the day.  So,instead of constantly checking various sites for the latest updates,
     this python program push crypto currency price notifications at certain time interval and also notify 
     when price reach to a certain value as threshold value provided by user.
 
 ## Advantage Of Bitcoin
 ______
-    Standard wire transfers and foreign purchases typically involve fees and exchange costs. Since bitcoin 
-    transactions have no intermediary institutions or government involvement, the costs of transacting are kept very low.
-    This can be a major advantage for travelers.
+>By using a cryptocurrency, users are able to exchange value digitally without third party oversight
+
 
 ## Installation Guide:
 ____________
@@ -50,10 +50,14 @@ Run the follwing Command
 
         -d DESTINATION_APP,   --destination_app DESTINATION_APP
                         The Messaging Service Destiation 
-                        1. TWITTER 2. IFTTT 3. TELEGRAM
+                        1. TWITTER  
+                        2. TELEGRAM
+
         -c CURRENCY, --currency CURRENCY
-                        Bitcoin value in 1.Indian Rupees(INR) 2.USD(US
-                        Dollars)
+                        Bitcoin value in 
+                        1.Indian Rupees(INR) 
+                        2.USD(US Dollars)
+
         -ct COINTYPE, --cointype COINTYPE
                         Type of crypto currency is bitcoin
 
@@ -71,7 +75,9 @@ Run the follwing Command
 
 ## Target Applications:
 _____
-![Test Image 1](Capture.JPJ)
+* Telegram
+* Twitter
+* Android SMS
 
 ## Python Packages & Libraries Used
 ________
